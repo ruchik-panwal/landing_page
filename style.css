@@ -96,15 +96,13 @@ a,
 
 .cardHolder{
     display: flex;
-    gap: 20px;
+    gap: 50px;
 
     margin-bottom: 120px;
 }
 
-.blueBold{
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: 700;
+.odin{
+    color: yellow;
 }
 
 
@@ -125,6 +123,8 @@ a,
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
+    margin-bottom: 10px;
+    text-align: center;
 
 }
 
@@ -132,13 +132,28 @@ a,
     font-size: 18px;
     color: #1F2937;
     font-weight: 800;
-    
+    text-align: right;
 }
 
 
 
 .contact{
     padding: 100px 160px;
+}
+
+
+.blueBold{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.cards{
+    width: 200px;
+}
+
+.cardText{
+    text-align: center;
 }
 
 .blueBox{
@@ -178,4 +193,20 @@ a,
     align-items: center;
 
     padding: 50px;
+}
+
+.cardImg{
+    width: 200px;
+    height: 200px;
+
+    object-fit: cover;
+     border-style: solid;
+    border-radius: 10px;
+    border-color: #1F2937;
+
+    margin-bottom: 10px;
+}
+
+.blueBold{
+    margin-bottom: 10px;
 }
