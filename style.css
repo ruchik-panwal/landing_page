@@ -97,8 +97,15 @@ a,
 .cardHolder{
     display: flex;
     gap: 50px;
-
+    flex-wrap: wrap;
     margin-bottom: 120px;
+    justify-content: center;
+}
+
+.card1, .card2{
+    display: flex;
+    gap: 50px;
+    
 }
 
 .odin{
