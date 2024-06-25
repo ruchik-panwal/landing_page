@@ -11,7 +11,8 @@ ul {
 }
 
 a,
-.aweInfo, .blueSubText {
+.aweInfo,
+.blueSubText {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
@@ -27,7 +28,7 @@ a,
 }
 
 .info {
-    display: flex ;
+    display: flex;
     justify-content: center;
     margin-top: 150px;
     margin-bottom: 150px;
@@ -75,28 +76,28 @@ a,
     border: #3882F6;
     border-radius: 10px;
     font-size: 18px;
-    font-weight: 900; 
+    font-weight: 900;
 }
 
-.ranTitle{
+.ranTitle {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
     margin: 40px;
 }
 
-.cardText{
+.cardText {
     color: #1F2937;
     font-size: 18px;
 }
 
-.randomInfo{
+.randomInfo {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.cardHolder{
+.cardHolder {
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
@@ -104,13 +105,14 @@ a,
     justify-content: center;
 }
 
-.card1, .card2{
+.card1,
+.card2 {
     display: flex;
     gap: 50px;
-    
+
 }
 
-.odin{
+.odin {
     color: yellow;
 }
 
@@ -122,13 +124,13 @@ a,
 
 
 
-.quoteHolder{
+.quoteHolder {
     background-color: #E5E7EB;
 
     padding: 150px 225px;
 }
 
-.quote{
+.quote {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
@@ -137,7 +139,7 @@ a,
 
 }
 
-.quoter{
+.quoter {
     font-size: 18px;
     color: #1F2937;
     font-weight: 800;
@@ -146,26 +148,26 @@ a,
 
 
 
-.contact{
+.contact {
     padding: 100px 160px;
 }
 
 
-.blueBold{
+.blueBold {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 700;
 }
 
-.cards{
+.cards {
     width: 200px;
 }
 
-.cardText{
+.cardText {
     text-align: center;
 }
 
-.blueBox{
+.blueBox {
     background-color: #3882F6;
     padding: 50px 100px;
     border-radius: 10px;
@@ -176,12 +178,12 @@ a,
 }
 
 
-.credit{
+.credit {
     color: #E5E7EB;
     font-size: 24px;
 }
 
-.signUp2{
+.signUp2 {
     background-color: #3882F6;
     border-color: #F9FAF8;
     border-style: solid;
@@ -194,9 +196,9 @@ a,
     font-weight: 600;
 }
 
-.footer{
+.footer {
     background-color: #1F2937;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,18 +206,22 @@ a,
     padding: 50px;
 }
 
-.cardImg{
+.cardImg {
     width: 200px;
     height: 200px;
 
     object-fit: cover;
-     border-style: solid;
+    border-style: solid;
     border-radius: 10px;
     border-color: #1F2937;
 
     margin-bottom: 10px;
 }
 
-.blueBold{
+.cardImg:hover{
+    box-shadow: 0 0 5px #1F2937;
+}
+
+.blueBold {
     margin-bottom: 10px;
 }
