@@ -20,14 +20,14 @@ a,
 
 .top {
     background-color: #1F2937;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 200px;
+    padding-right: 200px;
     display: flex;
     flex-direction: column;
 }
 
 .info {
-    display: flex;
+    display: flex ;
     justify-content: center;
     margin-top: 150px;
     margin-bottom: 150px;
@@ -44,6 +44,8 @@ a,
 
 .mainImg {
     width: 600px;
+    flex-shrink: 1;
+    flex-basis: 600px;
 }
 
 .logo {
